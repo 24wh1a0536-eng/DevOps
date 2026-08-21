@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+
+    <h2>Register</h2>
+
+    <input
+        id="firstName"
+        placeholder="First Name"
+    >
+    <div class="error" id="firstNameError"></div>
+
+
+    <input
+        id="lastName"
+        placeholder="Last Name"
+    >
+    <div class="error" id="lastNameError"></div>
+
+
+    <input
+        id="username"
+        placeholder="Username"
+    >
+    <div class="error" id="usernameError"></div>
+
+
+    <input
+        id="password"
+        type="password"
+        placeholder="Password"
+    >
+    <div class="error" id="passwordError"></div>
+
+
+    <input
+        id="dob"
+        type="date"
+    >
+    <div class="error" id="dobError"></div>
+
+
+    <input
+        id="mobile"
+        placeholder="Mobile"
+    >
+    <div class="error" id="mobileError"></div>
+
+
+    <input
+        id="address"
+        placeholder="Address"
+    >
+    <div class="error" id="addressError"></div>
+
+
+    <input
+        id="pincode"
+        placeholder="PIN Code"
+    >
+    <div class="error" id="pincodeError"></div>
+
+
+    <select id="gender">
+
+        <option value="">
+            Select Gender
+        </option>
+
+        <option value="Male">
+            Male
+        </option>
+
+        <option value="Female">
+            Female
+        </option>
+
+    </select>
+
+    <div class="error" id="genderError"></div>
+
+
+    <button onclick="register()">
+        Register
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
